@@ -5,7 +5,6 @@ This container contains EPICS base, Synapps, Ophyd Websocket and the Finch front
 # Prereqs
 `docker`  
 `docker-compose`  
-`conda`
 
 ## Quick Start
 
