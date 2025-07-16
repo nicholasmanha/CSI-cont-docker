@@ -1,0 +1,102 @@
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Container volumes and temporary files
+tmp/
+volumes/
+data/
+
+# Build artifacts
+**/target/
+**/build/
+**/dist/
+
+# Node.js (for your frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+.pnp
+.pnp.js
+
+# Frontend build outputs
+**/dist/
+**/build/
+**/.next/
+**/.nuxt/
+**/.vuepress/dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Python (if using Python for websocket server)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# EPICS specific
+*.db_bak
+*.substitutions_bak
+autosave/
+iocBoot/*/auto_settings.sav*
+iocBoot/*/auto_positions.sav*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Secrets and credentials
+secrets/
+credentials/
+*.pem
+*.key
+*.crt
