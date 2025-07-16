@@ -1,4 +1,4 @@
-# CSI Dontroller Docker
+# CSI Controller Docker
 A containerized version of the CSI Controller for demoing purposes.  
 This container contains EPICS base, Synapps, Ophyd Websocket and the Finch frontend. 
 
